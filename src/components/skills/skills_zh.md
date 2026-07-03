@@ -1,0 +1,9 @@
+- 熟练开发基于 `React + Hooks + Umi + Dva + Webpack` 的应用
+- 熟悉 `Vue`、`Vue-Router`、`Vuex` 及 Vue 全家桶
+- 熟悉基于 `Electron + Electron-Builder` 的跨平台桌面应用开发
+- 独立开发过多个 Web 应用（从 0 到 1）
+- 熟悉 `ES6+` 特性，了解前端性能优化与调试技巧，并在项目中大量应用
+- 熟悉 `Antd`、`ElementUI` 等组件库
+- 熟悉 `Echarts`、`G2`、`G6`、`X6`、`GG-Editor` 等可视化库
+- 熟练使用 `Git`、`TypeScript`、`Less`、`MockJs`、`ApiFox`
+- 了解后端开发语言 `Node.js`、`Java`，以及 Linux 命令、MySQL 数据库
