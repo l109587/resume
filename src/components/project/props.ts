@@ -11,7 +11,7 @@ const props: {
     title: '项目经历',
     projects: [
       {
-        name: 'AI 知识库应用',
+        name: '法律AI 知识库应用',
         time: '2026.6 ~ 至今',
         roles: ['Creator', 'Owner'],
         content: cnContents[0],

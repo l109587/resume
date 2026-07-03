@@ -4,21 +4,21 @@
   <p><span class="project-sub-title">前端技术栈</span></p>
 </block>
 
-`Next.js 15` / `React 19` / `TypeScript` / `RAG` / `LangChain` / `Qdrant` / `Embedding` / `BM25` / `Hybrid Search` / `RRF` / `Prompt Engineering` / `SSE` / `ReadableStream` / `Fetch API` / `FastAPI`
+ `RAG` / `LangChain` / `Qdrant` / `Embedding` / `BM25` / `Hybrid Search` / `Prompt Engineering` / `ReadableStream` / `Python` / `FastAPI`/ `MySql` / `React 19` / `TypeScript` /
 
 <block class="project-block">
   <p><span class="project-sub-title">项目职责</span></p>
 </block>
 
 - 负责法律 AI 知识库前端架构与核心交互开发，构建对话侧边栏、流式问答区、知识库文档管理、引用来源展示等完整产品闭环
-- 基于 `Next.js + React + TypeScript` 实现单页问答工作台，使用组件化状态管理承载会话切换、文档分页、上传进度、删除状态、问答 loading 等复杂 UI 状态
-- 基于 `fetch + ReadableStream + SSE` 接入后端流式问答接口，实现大模型回答逐字增量渲染、metadata/delta/done 事件解析、异常兜底和引用来源回填
 - 开发法律知识库文档管理模块，支持 `txt`、`md`、`pdf`、`docx` 上传入库、分页查询、关键词搜索、原文预览、引用查看和文档删除
-- 参与 RAG 核心链路设计与联调，围绕文档加载、文本切分、Embedding 向量化、向量召回、关键词召回、融合排序和 LLM 生成优化问答效果
+- 实现 RAG 核心链路设计与联调，围绕文档加载、文本切分、Embedding 向量化、向量召回、关键词召回、融合排序和 LLM 生成优化问答效果
 - 引入 `Hybrid Search` 检索策略，结合 `Qdrant` 语义向量检索与 `BM25` 关键词检索，并通过 `RRF` 融合排序提升法律长文档场景下的召回稳定性
 - 设计回答引用溯源能力，将检索片段的文档 ID、文件名、预览地址与回答结果关联，保证法律分析结果有来源、可核验
 - 针对法律问答场景优化 Prompt 约束，要求模型区分用户事实与检索材料、避免无依据结论、输出风险提示和下一步建议，提升法律辅助分析的可信度
-- 捎带对接 `FastAPI` 问答与文档接口，支持会话持久化、历史消息回显和知识库文档状态同步
+- `Python + FastAPI + Mysql` 实现问答与文档接口，支持会话持久化、历史消息回显和知识库文档状态同步
+- 基于 `Next.js + React + TypeScript` 实现单页问答工作台，使用组件化状态管理承载会话切换、删除状态、问答 loading 等复杂 UI 状态
+- 基于 `fetch + ReadableStream` 接入后端流式问答接口，实现大模型回答逐字增量渲染、事件解析、异常兜底
 
 ==split==
 
