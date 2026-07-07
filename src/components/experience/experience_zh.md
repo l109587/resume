@@ -1,24 +1,33 @@
 <block class="experience-block">
-  <p><span class="experience-sub-title">前端架构</span></p>
+  <p><span class="experience-sub-title">团队与项目负责</span></p>
 </block>
 
-- 负责 Web 前端架构设计与技术选型
-- 主导前端项目的代码管理工程化
-- 开发前端核心模块，并解决全团队关于 React 的问题
+- 负责前端团队日常管理、拆解项目排期与开发任务
+<!-- - 协同需求、设计、后端、测试推进落地 -->
+- 参与产品需求整理与 UI 设计输出
+- 负责团队核心模块开发与关键问题兜底
+
 
 <block class="experience-block">
-  <p><span class="experience-sub-title">团队建设</span></p>
+  <p><span class="experience-sub-title">工程化与效率提升</span></p>
 </block>
 
-- 前端规范建设，提升研发效率
-- 参与需求评审并且制定前端开发计划
-- 协同 UI 设计师完成产品 UI 设计
+- 重构法律AI知识库工程,提升检索准确度和速度
+- 引入 `Codex`、`Claude Code`、`Cursor` 等 vibe Coding 工具
+- 推动团队从传统开发转向 AI 开发、提升团队研发效率
 
 ==split==
+
+<block class="experience-block">
+  <p><span class="experience-sub-title">核心开发</span></p>
+</block>
+
+- 负责高复杂度业务页面落地，支撑安全监测、资产分析、Word 报表导出等核心场景
+- 优化 10 万级表格数据、千级图谱节点和多环境构建性能，页面渲染耗时降低50%
 
 <block class="experience-block">
   <p><span class="experience-sub-title">研发效率与代码质量</span></p>
 </block>
 
 - 公共组件封装，提升项目组件封装率达 80%
-- 代码优化，提升编译和打包速度，减小打包体积
+- 代码优化，提升编译和打包速度

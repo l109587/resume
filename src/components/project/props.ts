@@ -11,26 +11,26 @@ const props: {
     title: '项目经历',
     projects: [
       {
-        name: '法律AI 知识库应用',
+        name: '法律AI 知识库',
         time: '2026.6 ~ 至今',
-        roles: ['Creator', 'Owner'],
+        roles: ['Creator'],
         content: cnContents[0],
+      },
+      {
+        name: '企业考勤管理系统',
+        time: '2026.5 ~ 2026.6',
+        roles: ['Product', 'vibe Coding'],
+        content: cnContents[1],
       },
       {
         name: '网络边界监测系统',
         time: '2022.7 ~ 2024.3',
-        roles: ['Creator', 'Owner'],
-        content: cnContents[1],
+        roles: ['Creator'],
+        content: cnContents[2],
       },
       {
         name: '存储介质信息消除工具',
         time: '2022.4 ~ 2022.7',
-        roles: ['Creator', 'Owner'],
-        content: cnContents[2],
-      },
-      {
-        name: '萤火 API Intelligence',
-        time: '2021.9 ~ 2022.3',
         roles: ['Creator', 'Owner'],
         content: cnContents[3],
       },
