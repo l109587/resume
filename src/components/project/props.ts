@@ -34,12 +34,12 @@ const props: {
         roles: ['Creator'],
         content: cnContents[3],
       },
-      {
-        name: '存储介质信息消除工具',
-        time: '2022.4 ~ 2022.7',
-        roles: ['Creator', 'Owner'],
-        content: cnContents[4],
-      },
+      // {
+      //   name: '存储介质信息消除工具',
+      //   time: '2022.4 ~ 2022.7',
+      //   roles: ['Creator', 'Owner'],
+      //   content: cnContents[4],
+      // },
     ],
   },
   get en() {

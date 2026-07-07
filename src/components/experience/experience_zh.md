@@ -3,7 +3,7 @@
 </block>
 
 - 负责前端团队日常管理、拆解项目排期与核心模块开发
-- 参与产品需求整理与 UI 设计输出
+- 负责企业AI知识库0-1建设
 <!-- - 负责团队核心模块开发与关键问题兜底 -->
 
 
@@ -11,9 +11,8 @@
   <p><span class="experience-sub-title">工程化与效率提升</span></p>
 </block>
 
-- 搭建法律AI知识库,为法律团队提供知识库及关联案件检索
-- 引入 `Codex`、`Claude Code`、`Cursor` 等 vibe Coding 工具
-- 推动团队从传统开发转向 AI 开发、提升团队研发效率
+- 负责完整 RAG 链路（文档解析、Chunk、Embedding、Hybrid Search、Rerank、LLM 生成）。
+- 负责AI Coding流程建设，提升开发效率及交付时间。
 
 ==split==
 
