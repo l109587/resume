@@ -1,9 +1,8 @@
-- 熟悉 AI Agent 与 RAG 应用开发，掌握 `LangChain`、`Embedding`、`Qdrant`、`BM25`、`Hybrid Search`、`RRF` 等核心技术
+- 熟悉 AI Agent 与 RAG 应用开发，掌握 `LangChain`、`Embedding`、`Qdrant`、`BM25`、`Hybrid Search`、`RRF（倒数排名融合）` 等核心技术
 - 熟悉 Agent 工作流设计，能围绕任务拆解、工具调用、上下文管理、结构化输出、结果校验设计可落地方案
-- 熟悉 Prompt Engineering 与 Context Engineering，了解 Function Calling、MCP、Tool Use 等工具接入方式
-- 深度使用 `Codex`、`Claude Code`、`Cursor` 等 AI Coding 工具，具备 AI 辅助需求拆解、代码生成、审查验收和效率提升经验
-- 熟练使用 `React`、`Vue 3`、`TypeScript`、`Umi`、`Vue Router`、`Vuex`、`Webpack/Vite` 开发复杂中后台应用
-- 具备 `Python + FastAPI + MySQL` 全栈开发能力，可独立完成 AI 知识库、接口服务、数据持久化与前端联调
-- 熟悉前端工程化、组件化、权限路由、状态管理、接口封装、性能优化和多环境构建部署
+- 熟悉提示词工程与上下文工程，了解 Function Calling、MCP、Tool Use 等工具接入方式
+- 深度使用 `Codex`、`Claude Code`、`Cursor` 等 AI Coding 工具，使用 AI 辅助需求拆解、代码生成
+- 熟悉 `React`、`Vue 3`、`TypeScript`、`Umi`、`Vue Router`、`Vuex`、`Webpack/Vite` 技术
+- 具备 `Python + FastAPI + MySQL` 全栈开发能力
 - 熟悉 `ECharts`、`G2`、`G6`、`X6` 等可视化技术，具备大数据量表格、图谱和报表类复杂页面开发经验
 - 熟悉 `Electron + Electron-Builder` 跨平台桌面应用开发，具备 Web、桌面端项目从 0 到 1 落地经验
