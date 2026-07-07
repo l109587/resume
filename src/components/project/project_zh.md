@@ -39,6 +39,29 @@
 
 ==split==
 
+> 面向知识产权律师与代理人的一体化办案协同系统，通过将立卷、商标/专利/版权/诉讼/保护等案件办理流程软件化，串联客户、项目、合同、财务、流程、工时、资料与业绩分析等模块，帮助律师沉淀标准办案流程、减少重复录入与线下沟通成本，提升案件办理效率。
+
+<block class="project-block">
+  <p><span class="project-sub-title">技术栈</span></p>
+</block>
+
+`Vue 3` / `Vue Router` / `Vuex` / `Element Plus` / `Axios` / `WebSocket` / `AG Grid` / `ECharts` / `FullCalendar` / `WangEditor` / `PDF.js` / `XLSX` / `Sass`
+
+<block class="project-block">
+  <p><span class="project-sub-title">项目职责</span></p>
+</block>
+
+- 深度协同知识产权律师与代理人梳理真实办案流程，将立卷、案件跟进、流程节点、资料归档、费用合同关联等线下流程沉淀为可复用的软件化工作流
+- 作为核心前端开发负责案件、客户、项目、合同、财务、流程、工时等模块建设，支撑律师从客户委托到案件办理、费用结算的全链路线上协同
+- 应用 `WebSocket` 实现办案进程实时推送，支持代理人传递案件节点进展，并向律师同步邮件提醒、待办处理提醒和重要期限提醒
+- 应用 `AG Grid` 实现案件、费用、合同等大数据列表的筛选、排序、分页与批量操作，提升律师高频检索和批量处理效率
+- 应用 `PDF.js`、`XLSX` 和 Blob 文件流实现案件材料在线预览、Excel 导入导出、附件下载等能力，减少线下文件流转成本
+- 主导商标、专利、保护等多类型案件页面抽象，沉淀列表检索、详情编辑、侧边抽屉、流程记录等高复用业务组件，降低复杂页面开发成本
+- 梳理案件、合同、费用、客户、项目之间的业务关联与数据流转，完成跨模块页面联动、状态回显、权限控制和操作闭环，减少重复录入并提升办案效率
+- 处理权限菜单、路由懒加载、复杂表单、富文本等高频难点场景，提升系统可维护性与用户体验
+
+==split==
+
 > 从 0 开始编写前端。该系统是基于 React、Umi、Antd 的 SPA 项目，用于对用户资产进行分析统计，计算资源分布，部署探针监测用户资产安全风险，并根据监测配置提供风险违规监测报告。项目中公共组件和系统配置、系统维护相关功能，通过 webpack 配置、git-submodule、npm-workspace 实现公共架构管理。
 
 <block class="project-block">
@@ -64,20 +87,20 @@
 
 ==split==
 
-> 利用保密认证的专业设备，对电脑、笔记本、U 盘、硬盘等存储介质中保存的数据信息进行彻底清除。擦除后数据无法恢复，达到国家保密要求。主要功能包括系统登录、系统升级、设备擦除、擦除设置、操作日志等。
+> 面向保密数据销毁场景的 Linux 触屏终端应用，部署在可触屏的专用消除设备上，对电脑、笔记本、U 盘、硬盘等存储介质中的数据进行彻底清除。系统支持触屏登录、设备擦除、擦除设置、系统升级、操作日志与进度反馈，满足离线设备环境下的安全擦除与审计要求。
 
 <block class="project-block">
   <p><span class="project-sub-title">技术栈</span></p>
 </block>
 
-`Electron` / `Electron-Builder` / `React` / `Umi` / `Axios` / `Antd` / `React-simple-keyboard` / `Less`
+`Electron` / `Electron-Builder` / `IPC` / `Preload` / `ContextBridge` / `Linux` / `React` / `Umi` / `Axios` / `Antd` / `React-simple-keyboard` / `Less`
 
 <block class="project-block">
   <p><span class="project-sub-title">项目职责</span></p>
 </block>
 
-- 基于 Electron 技术搭建桌面应用架构
-- 基于 `Electron-Builder` 打包跨 Windows、macOS、Linux 三平台桌面应用，通过架构优化减小应用体积并提高打包效率
-- 封装通用组件，包括表格、通知、表单、弹框、输入框、选择框等
-- 基于 `React-simple-keyboard` 封装虚拟键盘组件
-- 设置 HTTP 拦截器，使用 Axios 二次包装公共请求头和异常统一处理，使用 `async/await` 进行异步流程控制
+- 基于 `Electron` 搭建 Linux 触屏终端应用架构，划分主进程、渲染进程与预加载脚本职责，实现前端界面与本地设备能力的稳定协同
+- 应用 `IPC` 通信打通渲染进程与主进程，封装设备擦除、系统升级、操作日志、本地配置读写等桌面端能力调用
+- 通过 `Preload + ContextBridge` 暴露安全 API，控制 Node 能力边界，降低渲染进程直接访问系统资源带来的安全风险
+- 基于 `Electron-Builder` 配置 Linux 安装包、应用图标、产物目录与启动参数，适配专用触屏设备的部署与升级流程
+- 针对触屏操作场景封装大尺寸按钮、弹框、虚拟键盘、擦除进度反馈等交互组件，提升无外接键鼠环境下的操作效率

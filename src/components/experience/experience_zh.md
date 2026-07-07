@@ -12,7 +12,7 @@
   <p><span class="experience-sub-title">工程化与效率提升</span></p>
 </block>
 
-- 重构法律AI知识库工程,提升检索准确度和速度
+- 搭建法律AI知识库,为法律团队提供知识库及关联案件检索
 - 引入 `Codex`、`Claude Code`、`Cursor` 等 vibe Coding 工具
 - 推动团队从传统开发转向 AI 开发、提升团队研发效率
 
