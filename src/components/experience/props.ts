@@ -12,7 +12,7 @@ const props: {
     companies: [
       {
         name: '曜斗科技',
-        time: '2024.4 ~ 至今',
+        time: '2024.4 ~ 2024.7',
         title: '前端组长 / 产品经理',
         content: cnContents[0],
         url: '#',
