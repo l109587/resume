@@ -7,7 +7,7 @@ const props: {
   zh: {
     name: '李宏斌',
     email: 'lhb109587@163.com',
-    site: '',
+    site: '五年软件开发',
     phone: '18333374056',
     github: {
       name: '',
@@ -17,8 +17,7 @@ const props: {
       name: '',
       url: '',
     },
-    wechat: '18333374056（同微信）',
-    exp: '26岁 | 一本-计算机科学与技术 | 五年软件开发',
+    exp: '26岁 | 一本-计算机科学与技术',
     location: '河北省唐山市',
   },
   get en() {

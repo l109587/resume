@@ -1,6 +1,5 @@
 import { FC, memo } from 'react'
 import {
-  WechatFilled as Wechat,
   MailOutlined as Mail,
   PhoneOutlined as Phone,
   LinkOutlined as Link,
@@ -30,7 +29,6 @@ export interface HeaderProps {
     name: string
     url: string
   }
-  wechat: string
   exp: string
   location: string
 }
@@ -57,12 +55,6 @@ export const Header: FC<HeaderProps> = memo((props) => (
         <HeaderInfoContent href={`tel:+86-${props.phone}`}>
           <ModifiedParagraph copyable>{props.phone}</ModifiedParagraph>
         </HeaderInfoContent>
-      </HeaderInfo>
-      <HeaderInfo>
-        <Wechat />
-        <HeaderInfoContentSpan>
-          <ModifiedParagraph copyable>{props.wechat}</ModifiedParagraph>
-        </HeaderInfoContentSpan>
       </HeaderInfo>
       {props.site ? (
         <HeaderInfo>
