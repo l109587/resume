@@ -4,20 +4,18 @@
   <p><span class="project-sub-title">技术栈</span></p>
 </block>
 
- `AI大模型` / `RAG` /  `LangChain` / `Qdrant` / `Embedding` / `BM25` / `混合检索` / `RRF` / `短期记忆` / `长期记忆` / `关键词工程` / `Python` / `FastAPI`/ `MySql` / `React 19` / `TypeScript` 
+ `LLM` / `RAG` /  `LangChain` / `Qdrant` / `Embedding` / `BM25` / `混合检索` / `关键词工程`/ `Rerank` / `Python` / `FastAPI`/ `MySql` / `React 19` / `TypeScript` 
 
 <block class="project-block">
   <p><span class="project-sub-title">项目职责</span></p>
 </block>
 
-- 负责法律 AI 知识库架构与核心交互开发，构建对话侧边栏、流式问答区、知识库文档管理、引用来源展示等完整产品闭环
-- 开发法律知识库文档管理模块，支持 `txt`、`md`、`pdf`、`docx` 上传入库、分页查询、关键词搜索、原文预览、引用查看和文档删除
+- 负责法律 AI 知识库架构设计，提升检索效果，优化问答体验，提升用户满意度
+- 围绕 RAG 检索准确度优化，结合关键词扩展与同义词归一、`Qdrant` 向量检索、`BM25` 关键词召回、混合检索、`RRF` 融合排序、`Rerank` 重排模式、TopK 与相似度阈值调优，提升 30% 的检索准确率
 - 实现 RAG 核心链路设计与联调，围绕文档加载、文本切分、Embedding 向量化、向量召回、关键词召回、融合排序和 LLM 生成优化问答效果
-- 引入混合检索策略，结合 `Qdrant` 语义向量检索与 `BM25` 关键词检索，并通过 `RRF（倒数排名融合）` 提升法律长文档场景下的召回稳定性
 - 设计短期记忆与长期记忆能力，短期记忆承载会话上下文追踪，长期记忆沉淀历史会话与知识库检索结果
 - 基于`Python + FastAPI + Mysql` 实现问答与文档接口，支持会话持久化、历史消息回显和知识库文档状态同步
-- 基于 `Next.js + React + TypeScript` 实现单页问答工作台，使用组件化状态管理承载会话切换、删除状态、问答 loading 等复杂 UI 状态
-- 基于 `fetch + ReadableStream` 接入后端流式问答接口，实现大模型回答逐字增量渲染、事件解析、异常兜底
+- 基于 `Next.js + React + TypeScript` 实现前端问答工作台，
 
 ==split==
 
