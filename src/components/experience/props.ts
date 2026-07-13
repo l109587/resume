@@ -12,17 +12,17 @@ const props: {
     companies: [
       {
         name: '曜斗科技',
-        time: '2024.4 ~ 2024.7',
-        title: '前端组长 / 产品经理',
+        time: '2024.4 ~ 2026.7',
+        title: '大模型应用开发/前端/后端开发',
         content: cnContents[0],
         url: '#',
       },
       {
         name: '北信源软件股份有限公司',
         time: '2021.7 ~ 2024.3',
-        title: '前端开发',
+        title: '',
         content: cnContents[1],
-        url: 'https://www.vrv.com.cn',
+        url: '#',
       },
     ],
   },

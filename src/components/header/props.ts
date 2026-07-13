@@ -7,7 +7,7 @@ const props: {
   zh: {
     name: '李宏斌',
     email: 'lhb109587@163.com',
-    site: '5年前端 | AI Agent/RAG 开发',
+    site: '5年软件开发 | AI Agent/RAG 开发',
     phone: '18333374056（同微信）',
     github: {
       name: '',

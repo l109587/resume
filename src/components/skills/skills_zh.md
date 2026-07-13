@@ -3,7 +3,7 @@
 - 设计 Prompt 模板与上下文工程，了解 Function Calling、MCP、Tool Use
 - 深度使用 `Codex`、`Claude Code`、`Cursor` AI Coding 工具
 - 熟悉 `React`、`Vue`、`TypeScript`、`Umi`、`Webpack/Vite` 技术
-- 具备 `Python + FastAPI + MySQL` 全栈开发及部署能力
+- 具备 `Python + FastAPI + MySQL + Nginx + Linux` 全栈开发及部署能力
 - 熟悉 `ECharts`、`G2`、`G6`、`X6` 等可视化技术，具备大数据量表格、图谱和报表类复杂页面开发经验
 - 熟悉 `Electron + Electron-Builder` 跨平台桌面应用开发
 - 独立开发过多个web应用（ 从0到1）

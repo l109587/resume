@@ -4,18 +4,21 @@
   <p><span class="project-sub-title">技术栈</span></p>
 </block>
 
- `LLM` /  `LangChain` / `Embedding` / `BM25` / `混合检索` / `关键词工程`/ `Rerank` / `Python` / `FastAPI`/ `MySql` / `React 19` / `TypeScript` 
+ `Qwen3.7-Plus` /  `LangChain` / `Embedding` / `dots.OCR` / `BM25` / `混合检索` / `关键词工程`/ `Rerank` / `Python` / `FastAPI`/ `MySql` / `React 19` / `TypeScript` 
 
 <block class="project-block">
   <p><span class="project-sub-title">项目职责</span></p>
 </block>
 
-- 设计 PDF、Word、Markdown 文档解析流程，支持标题、表格、图片等结构化解析。
-- 围绕 RAG 检索准确度优化，结合关键词扩展与同义词归一、`Qdrant` 向量检索、`BM25` 关键词召回、混合检索、`RRF` 融合排序、`Rerank` 重排模式、TopK 与相似度阈值调优，提升 30% 的检索准确率
-- 支持 2000+ 法律文档、200万+ Chunk、100万+ Embedding 数据入库检索，将 Top10 Recall 从 68% 提升至 91%，平均响应耗时从 8s 优化至 3s
-- 设计短期记忆与长期记忆能力，短期记忆承载会话上下文追踪，长期记忆沉淀历史会话与知识库检索结果
-- 基于`Python + FastAPI + Mysql` 实现问答与文档接口，支持会话持久化、历史消息回显和知识库文档状态同步
-- 基于 `Next.js + React + TypeScript` 实现前端问答工作台
+- **多模态向量建模**:使用dots.OCR模型精准解析PDF和PPT中的文本、图片等内容，采用私部署gme-Qwen2-VL-7B多模态嵌入模型，将文本与图像映射至统一向量空间，实现跨模态检索。
+- **文档解析与知识入库**，设计 PDF、Word、Markdown 文档解析、切分与入库流程，支持标题、表格、图片等结构化内容提取与元数据标注。
+- **构建混合检索链路**，基于 `Qdrant` 实现稠密向量检索，结合 `BM25` 关键词召回完成稀疏检索，通过多路召回与加权融合算法合并候选结果，提升法律条文、案例与合同片段的召回覆盖率。
+- **RAG 检索质量持续优化**，结合`RRF` 融合排序、TopK 与相似度阈值调优，并引入 `Rerank` 模型对候选文档进行精细化重排，提升模型上下文质量和回答准确性。
+- **支持 2000+ 法律文档**、200万+ Chunk、100万+ Embedding 数据入库检索，将 Top10 Recall 从 68% 提升至 91%，平均响应耗时从 8s 优化至 3s。
+- **上下文工程设计**，短期记忆承载会话上下文追踪，长期记忆沉淀历史会话与知识库检索结果，提升多轮追问场景下的连续问答体验。
+- **规范 JSON 结构化输出**，约束答案、引用来源、命中片段、置信度与追问建议等字段，便于前端稳定渲染和后续结果评估。
+- 基于 `Python + FastAPI + MySQL` 实现问答与文档接口，支持会话持久化、历史消息回显、知识库文档状态同步和检索结果调试。
+- 基于 `Next.js + React + TypeScript` 实现前端问答工作台，支持文档上传、知识库管理、流式问答、引用溯源和检索命中结果展示。
 
 ==split==
 
@@ -69,12 +72,13 @@
   <p><span class="project-sub-title">项目职责</span></p>
 </block>
 
-- 负责前端技术选型与架构设计，前端代码管理，发布与部署上线
-- 基于 `git-submodule`、`npm workspaces` 管理公共模块、业务模块和应用依赖
-- 基于 Ukey 证书、token、session 实现高强度系统登录模块
-- 基于 `React-Router` 开发前端配置路由，控制角色权限，实现页面级权限和操作权限
-- 基于 `G6`、`GG-Editor` 绘制网络设备拓扑关系图，实现网络设备在拓扑中的增删改查
-- 基于 `html2canvas`、`html-docx-js`、`file-saver`、`Antd Charts` 实现纯前端监测风险违规 Word 报表导出功能
+- 负责前端技术选型与架构设计，沉淀高复用业务组件与模块化工程方案，支撑资产监测、风险分析、告警处置和报告导出等多产品复用
+- 设计大屏告警监控平台，基于 `Antd Charts` 实现资产态势、风险等级、违规事件、探针在线率和告警趋势可视化，提升安全运营态势感知能力
+- 深化网络拓扑能力，基于 `G6`、`GG-Editor` 实现设备节点、链路关系、分组布局、状态染色、告警标记和交互式编辑，支持网络边界资产关系快速定位
+- 结合网络安全业务建模资产指纹、端口服务、弱口令、违规外联、异常访问等风险维度，支撑边界暴露面识别与风险闭环处置
+- 基于 Ukey 证书、token、session 实现高强度登录认证，结合路由权限与操作权限控制，保障敏感监测数据访问安全
+- 基于 `git-submodule`、`npm workspaces` 管理公共模块、业务模块和应用依赖，统一多项目代码组织、版本升级与构建发布流程
+- 基于 `html2canvas`、`html-docx-js`、`file-saver` 实现纯前端风险违规 Word 报表导出，支持监测结果归档、审计留痕和线下汇报
 
 ==split==
 
